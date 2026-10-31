@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: aqua;
+}
+.navigation{
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+
